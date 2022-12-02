@@ -1,0 +1,15 @@
+div {
+  background-position: center;
+  height: 60px;
+  display: none;
+}
+
+
+/* lightweight transparent background grey spinner */
+
+.loading {
+  min-width: 32px;
+  min-height: 32px;
+  background-repeat: no-repeat;
+  background-image: url(loading.gif);
+}

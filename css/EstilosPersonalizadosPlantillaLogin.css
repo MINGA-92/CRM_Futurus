@@ -1,0 +1,77 @@
+/*Estilos Personalizados Login pagina Futurus*/
+
+
+/*Estilos principales*/
+
+html,
+body {
+    overflow-x: hidden;
+    color: black;
+    font-family: 'Opens Sans', helvetica;
+}
+
+body { 
+    background: url("../images/login.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+
+/*Linea Separadora*/
+
+.buttom-bar-line {
+    border-bottom: #61636236 1px solid;
+}
+
+
+/*Tipo de letra*/
+
+@font-face {
+    font-family: 'Josefin Sans', sans-serif;
+    src: url("../css/JosefinSans-Italic.ttf");
+}
+
+label {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+/*Botones*/
+
+.btn-futurus-v {
+    color: #93C01F;
+    background-color: #ffffff8f;
+    background-image: none;
+    border-color: #ffffff;
+}
+
+.btn-futurus-r {
+    color: #ffffff;
+    background-color: #93C01F;
+    background-image: none;
+    border-color: #93C01F;
+}
+
+
+/*Card2 -- Tarjeta*/
+
+.card2 {
+    background-color: #ffffff5d;
+    border-radius: 2%;
+}
+
+
+/*Check*/
+
+.custom-control-input input:checked~.checkmark {
+    background-color: #93C01F !important;
+}
+
+
+/*Titulos*/
+
+h2 {
+    color: #ffffff;
+}

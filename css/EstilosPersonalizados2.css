@@ -1,0 +1,467 @@
+/*Estilos Personalizados pagina Futurus*/
+
+
+/*Estilos principales*/
+
+html,
+body {
+    overflow-x: hidden;
+    color: black;
+    font-family: "Opens Sans", helvetica;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url("../images/FuturusFondo.jpeg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+/*Lineas separadoras*/
+
+.buttom-bar-line {
+    border-bottom: #61636236 1px solid;
+}
+
+
+/*Tipo de letra*/
+
+@font-face {
+    font-family: "Josefin Sans", sans-serif;
+    src: url("assets/css/JosefinSans-Italic.ttf");
+}
+
+span {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 17px;
+}
+
+
+/*Botones*/
+
+.btn-futurus-v {
+    color: #93c01f;
+    background-color: #ffffff8f;
+    background-image: none;
+    border-color: #ffffff;
+}
+
+.btn-futurus-r {
+    color: #ffffff !important;
+    background-color: #93c01f;
+    background-image: none;
+    border-color: #93c01f;
+}
+
+.paginate_button {
+    background-color: #93c01f;
+    color: #ffffff;
+    border-color: #93c01f;
+}
+
+.btn-primary {
+    background-color: #ffffff62;
+    color: #93c01f;
+    border-color: #93c01f;
+}
+
+.btn-primary:hover {
+    background-color: #93c01f;
+    color: #ffffff;
+    border-color: #93c01f;
+}
+
+.btn-primary:active {
+    background-color: #ffffff !important;
+    color: #93c01f !important;
+    border-color: #ffffff !important;
+}
+
+.page-item.active .page-link {
+    background-color: #93c01f;
+    color: #ffffff;
+    border-color: #93c01f;
+}
+
+
+/*Navegacion y subtitulo*/
+
+#nav {
+    background-color: #ffffff !important;
+}
+
+#subTitle {
+    padding: 16px;
+    margin-top: 4%;
+}
+
+
+/*Estilos Subtitulo por tamaño de pantalla*/
+
+@media only screen and (max-width: 500px) {
+    .top {
+        margin-top: 30% !important;
+    }
+    #BtnDatosAdjuntos {
+        margin-left: 32% !important;
+    }
+    #BtnAgregarContacto {
+        margin-left: 28% !important;
+    }
+    #LblNumero {
+        margin-left: 2% !important;
+    }
+    #LblFechaV {
+        margin-left: 2% !important;
+    }
+    #FechaVisita {
+        margin-left: 5% !important;
+    }
+    #LblCargo {
+        margin-left: 2% !important;
+    }
+    #Salario {
+        margin-left: 5% !important;
+    }
+    #IBC {
+        margin-left: 5% !important;
+    }
+    #FondoActual {
+        margin-left: 5% !important;
+    }
+    #FondoEnvia {
+        margin-left: 5% !important;
+    }
+    #LblEstado {
+        margin-left: 2% !important;
+    }
+    #Div {
+        margin-top: 2% !important;
+    }
+    #FechaEnvioAfiliacion {
+        margin-bottom: -35% !important;
+        margin-left: 2% !important;
+    }
+    #Div {
+        margin-bottom: -200% !important;
+    }
+    #TituloFechaGestion {
+        margin-left: 2% !important;
+    }
+    #FechaGestion {
+        margin-left: 5% !important;
+    }
+    #FechaReagendamiento {
+        margin-left: 5% !important;
+    }
+    #LblNumero {
+        margin-left: 1% !important;
+    }
+    #LblUsuario {
+        margin-left: 4% !important;
+    }
+    #Usuario {
+        margin-left: 2% !important;
+    }
+    #LblContrasena {
+        margin-left: 4% !important;
+    }
+    #iconoContra {
+        margin-left: 5% !important;
+    }
+    #LblIdentificacion {
+        margin-left: 4% !important;
+    }
+    #Identificacion {
+        margin-left: 5% !important;
+    }
+    #LblLogin {
+        margin-left: 4% !important;
+    }
+    #Login {
+        margin-left: 5% !important;
+    }
+    #LblNombre {
+        margin-left: 4% !important;
+    }
+    #Nombre {
+        margin-left: 5% !important;
+    }
+    #LblNombre2 {
+        margin-left: 4% !important;
+    }
+    #Nombre2 {
+        margin-left: 5% !important;
+    }
+    #LblApellido {
+        margin-left: 4% !important;
+    }
+    #Apellido {
+        margin-left: 5% !important;
+    }
+    #LblApellido2 {
+        margin-left: 4% !important;
+    }
+    #Apellido2 {
+        margin-left: 5% !important;
+    }
+    #LblCliente {
+        margin-left: 4% !important;
+    }
+    #Cliente {
+        margin-left: 5% !important;
+    }
+    #LblCampana {
+        margin-left: 4% !important;
+        margin-top: 4% !important;
+    }
+    #Campana {
+        margin-left: 5% !important;
+    }
+    #LblTipoPermiso {
+        margin-left: 4% !important;
+        margin-top: 4% !important;
+    }
+    #TipoPermiso {
+        margin-left: 5% !important;
+    }
+    #LblCargo {
+        margin-left: 4% !important;
+        margin-top: 4% !important;
+    }
+    #Cargo {
+        margin-left: 5% !important;
+    }
+    #LblGrupo {
+        margin-left: 4% !important;
+    }
+    #Grupo {
+        margin-left: 5% !important;
+    }
+    #LblSubGrupo {
+        margin-left: 4% !important;
+    }
+    #SubGrupo {
+        margin-left: 5% !important;
+    }
+    #LblNuevoGrupo {
+        margin-left: 4% !important;
+    }
+    #NuevoGrupo {
+        margin-left: 5% !important;
+    }
+    #lblTipoDocumentoContacto {
+        margin-left: 4% !important;
+    }
+    #TipoDocumentoContacto {
+        margin-left: 5% !important;
+    }
+    #lblDocumento {
+        margin-left: 4% !important;
+    }
+    #Documento {
+        margin-left: 5% !important;
+    }
+    #lblPrimerNombre {
+        margin-left: 4% !important;
+    }
+    #PrimerNombre {
+        margin-left: 5% !important;
+    }
+    #lblSegundoNombre {
+        margin-left: 4% !important;
+    }
+    #SegundoNombre {
+        margin-left: 5% !important;
+    }
+    #lblPrimerApellido {
+        margin-left: 4% !important;
+    }
+    #PrimerApellido {
+        margin-left: 5% !important;
+    }
+    #lblSegundoApellido {
+        margin-left: 4% !important;
+    }
+    #SegundoApellido {
+        margin-left: 5% !important;
+    }
+    #lblFechaNacimiento {
+        margin-left: 4% !important;
+    }
+    #FechaNacimiento {
+        margin-left: 5% !important;
+    }
+    #lblEstadoCivil {
+        margin-left: 4% !important;
+    }
+    #EstadoCivil {
+        margin-left: 5% !important;
+    }
+    #lblDireccion {
+        margin-left: 4% !important;
+    }
+    #Direccion {
+        margin-left: 5% !important;
+    }
+    #lblPaisNuevoContacto {
+        margin-left: 4% !important;
+    }
+    #PaisNuevoContacto {
+        margin-left: 5% !important;
+    }
+    #lblDepartamentoNuevoContacto {
+        margin-left: 4% !important;
+    }
+    #DepartamentoNuevoContacto {
+        margin-left: 5% !important;
+    }
+    #lblCiudadNuevoContacto {
+        margin-left: 4% !important;
+    }
+    #CiudadNuevoContacto {
+        margin-left: 5% !important;
+    }
+    #lblBarrioNuevoContacto {
+        margin-left: 4% !important;
+    }
+    #BarrioNuevoContacto {
+        margin-left: 5% !important;
+    }
+    #lblNumeroMovil {
+        margin-left: 4% !important;
+    }
+    #NumeroMovil {
+        margin-left: 5% !important;
+    }
+    #lblIndicativoFijo {
+        margin-left: 4% !important;
+    }
+    #IndicativoFijo {
+        margin-left: 5% !important;
+    }
+    #lblNumeroFijo {
+        margin-left: 4% !important;
+    }
+    #NumeroFijo {
+        margin-left: 5% !important;
+    }
+    #lblExtencionFijo {
+        margin-left: 4% !important;
+    }
+    #ExtencionFijo {
+        margin-left: 5% !important;
+    }
+    #lblCargo {
+        margin-left: 4% !important;
+    }
+    #Cargo {
+        margin-left: 5% !important;
+    }
+    #lblIngresoLaboral {
+        margin-left: 4% !important;
+    }
+    #IngresoLaboral {
+        margin-left: 5% !important;
+    }
+    #lblSalario {
+        margin-left: 4% !important;
+    }
+    #Salario {
+        margin-left: 5% !important;
+    }
+    #lblFondo {
+        margin-left: 4% !important;
+    }
+    #Fondo {
+        margin-left: 5% !important;
+    }
+    #lblDescripcionSIAFP {
+        margin-left: 4% !important;
+    }
+    #DescripcionSIAFP {
+        margin-left: 5% !important;
+    }
+    #lblEmpresa {
+        margin-left: 4% !important;
+    }
+    #Empresa {
+        margin-left: 5% !important;
+    }
+    #BtnAbrirModalEmpresa {
+        margin-left: 28% !important;
+    }
+    #BtnAbrirModalNumerosAdicionales {
+        margin-left: 20% !important;
+    }
+    #TituloTabla {
+        margin-left: 10px !important;
+    }
+    #DescripcionSIAFP {
+        margin-left: -4px !important;
+    }
+    #FechaNacimiento {
+        margin-left: -4px !important;
+    }
+    #EstadoCivil {
+        margin-left: -4px !important;
+    }
+    #Loading {
+        margin-left: -1px !important;
+    }
+    #Loading2 {
+        margin-left: -1px !important;
+    }
+    #Loading3 {
+        margin-left: -1px !important;
+    }
+    #Loading4 {
+        margin-left: -1px !important;
+    }
+    #Loading5 {
+        margin-left: -1px !important;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .top {
+        margin-top: 40% !important;
+    }
+    #BtnDatosAdjuntos {
+        margin-left: 32% !important;
+    }
+    #BtnAgregarContacto {
+        margin-left: 28% !important;
+    }
+    #FechaEnvioAfiliacion {
+        margin-top: 32% !important;
+    }
+    #FechaGestion {
+        margin-top: 3% !important;
+    }
+    #DivFechaGestion {
+        margin-top: 32% !important;
+    }
+    #Div {
+        margin-top: 55% !important;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 900px) {
+    .top {
+        margin-top: 28% !important;
+    }
+}
+
+
+/*Corlor de fondo inputs*/
+
+.transparencia {
+    background-color: #fafffa23;
+}

@@ -1,0 +1,14 @@
+h6 {
+    font-family: "Muli-SemiBold";
+    font-size: 22px;
+    color: #82BA3D;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    padding: 9px 22px;
+    display: inline-block;
+    border: 1px solid #CCCCCC;
+    margin-bottom: 75px;
+    position: flex;
+    margin-top: 0rem;
+    text-align: center;
+}
